@@ -1,7 +1,7 @@
 {
-  "name": "Dolphin — Mobile AI",
-  "short_name": "Dolphin",
-  "description": "Chat UI for Dolphin 2.9.3 Qwen2 0.5B running on botkeep.",
+  "name": "Unchensed AI by Dhrubo",
+  "short_name": "Unchensed AI",
+  "description": "Uncensored-style mobile chat UI for Dolphin 2.9.3 Qwen2 0.5B — running on botkeep.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

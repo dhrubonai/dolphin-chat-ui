@@ -1,4 +1,4 @@
-// Dolphin chat UI — mobile-first, streaming, agentic, file uploads.
+// Unchensed AI by Dhrubo — mobile-first, streaming, agentic, file uploads.
 
 (() => {
   "use strict";
@@ -16,7 +16,7 @@
     tools: true,
   };
 
-  const KEY = "dolphin-state-v1";
+  const KEY = "unchensed-state-v1";
 
   // ---------------------------------------------------------------------------
   // DOM helpers
@@ -130,8 +130,8 @@
     const sess = currentSession();
     if (!sess || !sess.messages.length) {
       wrap.append(h("div", { class: "empty-state" },
-        h("div", { class: "big" }, "🐬"),
-        h("div", {}, "Dolphin 2.9.3 Qwen2 0.5B"),
+        h("div", { class: "big" }, "✶"),
+        h("div", {}, "Unchensed AI by Dhrubo"),
         h("div", { style: "margin-top:8px; font-size:12px;" }, "Tiny, on-device-style AI in your browser."),
       ));
       return;

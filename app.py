@@ -46,7 +46,7 @@ N_THREADS     = int(os.environ.get("N_THREADS", "2"))
 N_GPU_LAYERS  = int(os.environ.get("N_GPU_LAYERS", "0"))
 MAX_TOOL_ITERS = int(os.environ.get("MAX_TOOL_ITERS", "3"))
 MAX_FILE_CHARS = int(os.environ.get("MAX_FILE_CHARS", "4000"))  # truncate per file in prompt
-PORT          = int(os.environ.get("PORT", "8080"))
+PORT          = int(os.environ.get("SERVER_PORT", os.environ.get("PORT", "8080")))
 
 # ---------------------------------------------------------------------------
 # ChatML template + tool-call protocol
